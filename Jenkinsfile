@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('bulid') {
       steps {
-        sh 'sh test.sh'
+        sh 'echo "test blue ocean"'
       }
     }
 
